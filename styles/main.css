@@ -1,0 +1,79 @@
+.pageHeader {
+    text-align: center;
+}
+
+.fishListOne {
+    
+}
+
+
+.list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: flex-end;
+}
+
+
+.shop {
+    margin: 1rem;
+    padding: 1rem;
+    border: dotted .5px;
+    width: 275px;
+    height: 1px;
+}
+
+.locations-been,
+.tips {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.locations-been,
+.tips{
+    border: 1px solid black;
+    padding: 5px black;
+}
+
+.locations-first,
+.locations-second,
+.locations-third{
+    display: flex;
+    justify-content: center;
+}
+
+.fish-list{
+    margin-right: 100px;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+}
+
+.locations-header{
+    text-align: center;
+}
+
+.divingharvest-header{
+    text-align: center;
+}
+
+aside {
+    /* float: right; */
+    margin-right: 20px;
+    align-items: center;
+}
+
+.tank-tipsHeader{
+    margin-right: 80px;
+}
+
+.tank-tipsHeader{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
